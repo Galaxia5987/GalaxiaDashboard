@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.body, html {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard_image {
+    background: url(images/dashboard_image.png);
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#drivetrain_command {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 235px;
+    top: 681px;
+}
+
+#drivetrain_rotation {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 235px;
+    top: 786px;
+}
+
+
+#drivetrain_pose {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 235px;
+    top: 888px;
+}
+
+
+#game_time {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 1545px;
+    top: 678px;
+}
+
+#game_alliance {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 1540px;
+    top: 783px;
+}
+
+#game_period {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 1545px;
+    top: 885px;
+}
+
+#swerve {
+    position: absolute;
+    background: url(images/robot_image.png);
+    width: 45px;
+    height: 45px;
+    top: 400px;
+    left: 400px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#canvas {
+    position: absolute;
+    top: 158px;
+    left: 98px
+}
+
+#camera {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 900px;
+    top: 158px;
+    border: 1px solid black;
+}
+
+#camera2 {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 1420px;
+    top: 158px;
+    border: 1px solid black;
+}
